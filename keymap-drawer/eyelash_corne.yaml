@@ -1,19 +1,19 @@
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
-  - {t: Q, h: '!'}
-  - {t: W, h: '@'}
-  - {t: E, h: '#'}
-  - {t: R, h: $}
-  - {t: T, h: '%'}
+  - Q
+  - W
+  - E
+  - R
+  - T
   - $$mdi:arrow-up-bold$$
-  - {t: Y, h: ^}
-  - {t: U, h: '&'}
-  - {t: I, h: '*'}
-  - {t: O, h: (}
-  - {t: P, h: P}
+  - Y
+  - U
+  - I
+  - O
+  - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - SYMBOL
   - A
   - S
   - D
@@ -46,8 +46,8 @@ layers:
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - SYMBOL
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -100,10 +100,10 @@ layers:
   SYMBOL:
   - OUT USB
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - '1'
-  - '2'
-  - '3'
-  - '%'
+  - '7'
+  - '8'
+  - '9'
+  - {t: '-', s: _}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
@@ -111,12 +111,12 @@ layers:
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
-  - OUT BLE
+  - {t: OUT BLE, type: held}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - '4'
   - '5'
   - '6'
-  - '&mkp MB4'
+  - +
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -128,10 +128,10 @@ layers:
   - {t: '`', s: '~'}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - RGB ON
-  - '7'
+  - '1'
   - '8'
   - '9'
-  - '&mkp MB5'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
@@ -144,21 +144,21 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - {t: '$$mdi:transfer$$', type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - {t: F1, h: '!'}
+  - {t: F2, h: '@'}
+  - {t: F3, h: '#'}
+  - {t: $, h: F4}
+  - {t: F5, h: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - {t: F6, h: ^}
+  - {t: F7, h: '&'}
+  - {t: F8, h: '*'}
+  - {t: F9, h: (}
+  - {t: F10, h: )}
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
