@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - SYMBOL
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', h: SYMBOL}
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - $$mdi:keyboard-esc$$
@@ -111,7 +111,7 @@ layers:
   - (
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: OUT BLE, type: held}
+  - OUT BLE
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - '4'
   - '5'
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -187,8 +187,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-shift$$
-  - SCROLLLOCK
-  - PAUSE BREAK
+  - Ctl+ C
+  - Ctl+ V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
