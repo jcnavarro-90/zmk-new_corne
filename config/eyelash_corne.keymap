@@ -90,10 +90,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&trans  &mt EXCL F1  &mt AT F2  &mt HASH F3  &mt F4 DOLLAR  &mt PERCENT F5                                &mmv MOVE_UP                     &mt CARET F6  &mt AMPERSAND F7  &mt ASTERISK F8  &mt LEFT_PARENTHESIS F9  &mt RIGHT_PARENTHESIS F10  &kp F11
-&trans  &trans       &mkp LCLK  &mkp MCLK    &mkp RCLK      &mkp MB4                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader   &mkp LCLK         &mkp MCLK        &mkp RCLK                &kp PRINTSCREEN            &kp F12
-&trans  &sys_reset   &trans     &bootloader  &trans         &mkp MB5        &kp C_MUTE                    &mmv MOVE_DOWN                   &trans        &trans            &bootloader      &sys_reset               &kp SCROLLLOCK             &kp PAUSE_BREAK
-                                &trans       &trans         &trans                                                                         &trans        &trans            &trans
+&trans     &mt EXCL F1  &mt AT F2  &mt HASH F3  &mt F4 DOLLAR  &mt PERCENT F5                                &mmv MOVE_UP                     &mt CARET F6    &mt AMPERSAND F7  &mt ASTERISK F8  &mt LEFT_PARENTHESIS F9  &mt RIGHT_PARENTHESIS F10  &kp F11
+&trans     &trans       &mkp LCLK  &mkp MCLK    &mkp RCLK      &mkp MB4                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME        &kp UP_ARROW      &kp END          &mkp RCLK                &kp PRINTSCREEN            &kp F12
+&kp LCTRL  &sys_reset   &trans     &bootloader  &trans         &mkp MB5        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LEFT_ARROW  &kp DOWN          &kp RIGHT        &sys_reset               &kp SCROLLLOCK             &kp PAUSE_BREAK
+                                   &trans       &trans         &trans                                                                         &trans          &kp RIGHT_SHIFT   &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
