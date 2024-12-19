@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - LGUI
   - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
@@ -100,10 +100,10 @@ layers:
   SYMBOL:
   - OUT USB
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '-', s: _}
   - '7'
   - '8'
   - '9'
-  - {t: '-', s: _}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
@@ -113,10 +113,10 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - OUT BLE
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - +
   - '4'
   - '5'
   - '6'
-  - +
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -128,10 +128,10 @@ layers:
   - {t: '`', s: '~'}
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - RGB ON
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
@@ -141,7 +141,7 @@ layers:
   - '|'
   - '~'
   - '0'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
